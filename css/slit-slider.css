@@ -163,12 +163,17 @@
 }
 .bg-img-3 {
 	background-image: url(../img/slider/cinelli.jpeg);
+	background-size: cover;
+    background-position: center center;
 }
 
 @media (max-width: 415px) {
 	.bg-img-1 {
 		background-size: 85% 85%;
 		
+	}
+	.bg-img-3 {
+		background-size: 85% 85%;
 	}
   }
 /* Animations for content elements */

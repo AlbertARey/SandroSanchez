@@ -734,21 +734,22 @@ ul.external li a:hover {
 
 
 #testimonials {
-    /* background-image: url(../img/parallax/testimonial.jpeg); */
+    background-image: url(../img/parallax/testimonial.jpeg);
     padding: 0;
     color: #fff;
     position: relative;
     
 }
-video {
+/* video {
     position: absolute;    
     top: 0;
     left: 0;
     width: 100%;
      height: 100%;
-    z-index: -1; /* Coloca el video detrás del contenido */
+    z-index: -1; /* Coloca el video detrás del contenido 
     background-size: contain;    
-  }
+  } */
+
   .container{
     width: 100% !important;
   }

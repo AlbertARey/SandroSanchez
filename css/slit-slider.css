@@ -155,6 +155,8 @@
 
 .bg-img-1 {
 	background-image: url(../img/slider/banner.jpeg);
+	background-size: cover;
+    background-position: center center;
 }
 .bg-img-2 {
 	background-image: url(../img/slider/banner3.jpeg);
@@ -163,8 +165,12 @@
 	background-image: url(../img/slider/cinelli.jpeg);
 }
 
-
-
+@media (max-width: 415px) {
+	.bg-img-1 {
+		background-size: 85% 85%;
+		
+	}
+  }
 /* Animations for content elements */
 
 .sl-trans-elems .caption-content h2 {
